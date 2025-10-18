@@ -91,10 +91,9 @@ h3{
 
 #projects{
     background-color: #f7e8ce;
-    height: 85vh;
+    height: auto;
     display: flex;
     flex-direction: column;
-    justify-content:center;
     align-items: center;
     padding-top: 50px;
     margin:0;
@@ -182,3 +181,19 @@ footer {
 }
 
 
+@media screen and (max-width 920px) {
+    
+    #project-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+
+}
+
+
+
+
+
+}
