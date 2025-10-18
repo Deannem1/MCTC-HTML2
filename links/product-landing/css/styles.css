@@ -1,0 +1,132 @@
+body{
+    background-color:#fff3bc;
+    margin:0;
+  }
+  
+  #header{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    position:fixed;
+    width:100%;
+    background-color: #80b9c4
+    
+  }
+  
+  ul{
+    display:flex;
+    flex-direction: row;
+  }
+  
+  #section1, #section2, #section3{
+    margin:20px;
+    
+  }
+  
+  
+  
+  .nav-link, #nav-bar li  {
+      text-decoration: none;
+      padding: 14px 16px; 
+      overflow: hidden;
+          font-size: 20px;
+      text-decoration: underline;
+      color:#cc568a;
+      font-weight: bold;
+      float: right;
+      display: block;
+      text-align: right;
+      padding: 10px 15px; 
+      text-underline-offset: 0.5em;
+  }
+  
+  
+  #nav-bar li{
+      display: inline-block;
+  }
+  
+  #nav-bar a:hover {
+      font-weight: bolder;
+  }
+  
+  #product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#80b9c4;
+  }
+  
+  #cta{
+    font-weight:bold;
+    font-size: 25px;
+  
+  }
+  
+  input{
+    background-color:#8ccdda;
+    color:#fff3bc
+  }
+  
+  ::placeholder {
+    color:white
+  }
+  
+  h2{
+    color:#cb3770;
+  }
+  
+  p{
+    color: #625969;
+  }
+  
+  #vid-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #details{
+    margin-top: 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+  }
+  
+  .detail-box{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      width: 33%;
+      margin: 10px;
+      border: 1px solid #80b9c4;
+      border-radius: 10px;
+      background-color:#cb3770;
+      color: white;
+  }
+  .detail-box p{
+    color:white;
+  }
+  
+  #submit{
+    background-color:#cb3770;
+    color:white;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+  #details{
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+  }
+  .detail-box{
+    width:80%
+  }
+  }
+  

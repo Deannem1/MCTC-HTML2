@@ -1,0 +1,226 @@
+body{
+    background-color: rgba(245, 235, 181, 0.718);
+    margin: 0;
+}
+header {
+    display: flex;
+    align-items: center;
+    height: 75px;
+    justify-content: space-between;
+    padding: 20px 20px 20px 20px;
+    background-color:#24152c;
+    font-size: 30px;  
+}
+.header-text {
+    color: #31343d;
+    background-color: #7e8345;
+    margin: 5px 0 5px 0;
+    padding: 4px 10px 4px 40px;
+    display: inline-block;
+    font-size: 35px;
+}
+
+.nav-list {
+    text-decoration: none;
+    padding: 14px 16px; 
+    overflow: hidden;
+}
+
+.nav-list a {
+    font-size: 20px;
+    text-decoration: underline;
+    color:#cbb037;
+    float: right;
+    display: block;
+    text-align: right;
+    padding: 10px 15px; 
+    text-underline-offset: 0.5em;
+}
+
+.nav-list li{
+    display: inline-block;
+}
+
+.nav-list a:hover {
+    font-weight: bolder;
+}
+
+.banner {
+    height: 150px;
+    background-color: #daaa39;
+    
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    text-align: right;
+}
+
+.banner-text {
+    color: #24152c;
+    background-color: #7e8345;
+    margin: 60px 30px 15px 0;
+    padding: 4px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+h1 {
+    color: #24152c;
+    padding-left: 60px;
+    text-align: right;
+    justify-content: center;
+    font-size: 200%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  main{
+    display: flex;
+    flex: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px;
+    margin: 10px;
+}
+
+aside {
+    display: flex;
+    flex: 20%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 5px; 
+    margin: 15px 15px 5px 15px;
+    border-right: solid 3px #24152c;  
+}
+
+#profile-picture{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding: 5px; 
+    margin: 100px 15px 5px 15px; 
+
+}
+
+.image1 {
+
+    width: 20%;
+    height: 20%;
+    left:0;
+    opacity: 70%;
+}
+
+.section1 { 
+    display: flex;
+    flex: 80%;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 10px;
+    margin: 25px;
+}
+
+.aboutme {
+    display: flex;
+    flex-wrap: wrap;
+   
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: #24152c;
+    padding: 10px 10px 10px 10px;
+    margin: 10px;
+}
+
+
+
+footer { 
+    display: flex;
+    flex: 80%;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 10px;
+    margin: 25px;
+}
+
+.nav-bottom {
+    display: flex;
+    flex-direction: row;
+    flex: 100%;
+    justify-content:space-around;
+    list-style-type: none;
+    padding: 10px 10px 10px 10px; 
+}
+    
+ .nav-bottom ul{
+    display: flex;
+    flex-direction: row;
+    flex: 100%;
+    justify-content:space-around;
+} 
+
+.nav-bottom li {
+    display: inline-block;
+    text-decoration: underline;
+    color: #24152c;
+    font-size: 20px;
+    padding: 25px; 
+    text-underline-offset: 0.5em; 
+}
+
+.nav-bottom a {
+    color:#24152c;     
+}
+
+.nav-bottom a:hover {
+    color: #cbb037;
+    background-color: #24152c;
+}
+
+/*@media screen and (max-width: 980px){
+    header { 
+        flex-direction: column;
+        height: 150px;
+        padding: 0 20px 20px 20px;
+    }
+    .header-text {
+        font-size: 50px;
+    }
+    .section1 {
+        flex-direction: column;
+    }
+    .image1 {
+        width: 40%;
+        height: 40%;
+        align-self: center;
+    }
+ 
+    footer {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 768px){
+    .nav-list {
+        padding: 5px;
+    }
+    .image1 {
+        width: 60%;
+        height: 60%;
+        align-self: center;
+    }
+    .aboutme {
+        text-align: center;
+    }
+
+    .nav-bottom ul {
+        flex-direction: column;
+    }
+
+    .nav-bottom li {
+        padding: 5px;
+    }   
+}*/
