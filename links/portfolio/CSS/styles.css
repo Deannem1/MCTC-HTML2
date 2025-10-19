@@ -181,7 +181,7 @@ footer {
 }
 
 
-@media screen and (max-width 920px) {
+@media screen and (max-width: 920px) {
     
     #project-container {
         display: flex;
@@ -192,8 +192,13 @@ footer {
 
 }
 
+#contact-list{
+    flex-wrap: wrap;
+    justify-content: space-evenly;}
 
 
-
+#contact-list ul{
+    padding:0;
+}
 
 }
