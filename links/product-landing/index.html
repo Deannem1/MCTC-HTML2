@@ -30,7 +30,8 @@
     <option value="Weekly">
     <option value="Monthly">
   </datalist> 
-      <input id="start" placeholder="Start Week" type="date">   
+      <input id="start" placeholder="Start Week" type="text" onfocus="(this.type='date')" onblur="(this.type = this.value ? 'date' : 'text')" >   
+      
       <input type="submit" value="Submit" id="submit"> 
     </form>
 
