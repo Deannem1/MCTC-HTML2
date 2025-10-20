@@ -201,4 +201,17 @@ footer {
     padding:0;
 }
 
+#navlist{
+    flex-direction: column;
+}
+
+
+#navbar{
+    align-items: center;
+}
+
+#navlist li{
+    padding: 5px;
+}
+
 }
