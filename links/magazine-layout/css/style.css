@@ -13,7 +13,7 @@ html {
 body {
   font-family: 'Baskervville', serif;
   color: linen;
-  background-color: rgb(20, 30, 40);
+  background-color: rgb(20, 36, 40);
 }
 
 h1 {
@@ -26,7 +26,7 @@ h2, h3, h4, h5, h6 {
 
 a {
   text-decoration: none;
-  color: linen;
+  color: rgb(140, 44, 68);
 }
 
 main {
@@ -42,7 +42,7 @@ img {
 
 hr {
   margin: 1.5rem 0;
-  border: 1px solid rgba(120, 120, 120, 0.6);
+  border: 1px solid rgba(140, 44, 87, 0.6);
 }
 
 .heading {
@@ -67,13 +67,13 @@ hr {
 
 .hero-title {
   text-align: center;
-  color: orangered;
+  color: rgb(214, 170, 11);
   font-size: 8rem;
 }
 
 .hero-subtitle {
   font-size: 2.4rem;
-  color: orangered;
+  color: rgb(214, 170, 11);
   text-align: center;
 }
 
@@ -83,7 +83,7 @@ hr {
 }
 
 .author-name a:hover {
-  background-color: #306203;
+  background-color: #4dc4c0;
 }
 
 .publish-date {
@@ -100,14 +100,14 @@ hr {
 }
 
 .first-paragraph::first-letter {
-  font-size: 6rem;
-  color: orangered;
+  font-size: 10rem;
+  color: rgb(214, 170, 11);
   float: left;
   margin-right: 1rem;
 }
 
 .quote {
-  color: #00beef;
+  color: #41a2a7;
   font-size: 2.4rem;
   text-align: center;
   font-family: "Raleway", sans-serif;
@@ -137,8 +137,12 @@ hr {
   margin-bottom: 1.5rem;
 }
 
-.list-title, .list-subtitle {
-  color: #00beef;
+.list-title{
+  color:rgb(214, 170, 11);
+
+} 
+.list-subtitle {
+  color: #41a2a7;
 }
 
 .image-wrapper {
